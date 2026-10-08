@@ -1,0 +1,58 @@
+# Editor / temporary files
+*.kate-swp
+.*.kate-swp
+*.swp
+*.swo
+*~
+
+# Secrets and environment files
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Raw honeypot evidence and logs
+*.jsonl
+*.jsonl.gz
+*.ndjson
+*.log
+*.log.*
+*.pcap
+*.pcapng
+*.cap
+*.tty
+
+# Evidence bundles / archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Captured or suspicious binaries / payloads
+*.bin
+*.elf
+*.exe
+*.dll
+*.so
+*.payload
+*.sample
+malware/
+samples/
+evidence/
+
+# Backups
+*.bak
+*.backup
+*.orig
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
