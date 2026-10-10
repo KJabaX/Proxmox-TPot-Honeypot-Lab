@@ -202,6 +202,8 @@ The [`investigations/`](investigations/) directory contains selected case studie
 
 Current examples include:
 
+- [EternalBlue-like SMBv1 attempt](investigations/smbv1-eternalblue-like-attempt/) — sanitized analysis of crafted transaction data and evidence limitations
+
 - `103.174.102.29` — Cowrie SSH credential activity, Suricata correlation, timeline, IOC extraction and enrichment
 - `62.210.205.239` — high-volume Dionaea MSSQL credential guessing, Suricata correlation and campaign-level analysis
 - `45.148.10.5` — retained partial historical observation

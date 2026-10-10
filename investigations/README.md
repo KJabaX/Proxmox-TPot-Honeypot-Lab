@@ -8,6 +8,8 @@ Some older cases retain source IP addresses as technical indicators. An IP addre
 
 ## Cases
 
+- [EternalBlue-like SMBv1 Attempt](smbv1-eternalblue-like-attempt/) - static stream analysis, telemetry correlation and explicit evidence limitations.
+
 - [SIP/PBX Dial-Plan Probing](sip-pbx-dial-plan-probing/) - sanitized public analysis of automated SIP INVITE activity and dial-plan probing.
 - [MSSQL Investigation](62.210.205.239/) - high-volume MSSQL credential-guessing analysis.
 - [Cowrie Investigation](103.174.102.29/) - SSH honeypot investigation.
